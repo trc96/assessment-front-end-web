@@ -36,3 +36,37 @@ input {
 img {
 	max-width: 300px;
 }
+
+/* form#skills {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+} */
+
+.skill {
+	/* display: inline-flex; */
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-flow: column wrap;
+	
+}
+
+.profile-image {
+	width: 300px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.big-button {
+	background-color: yellow;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	padding: 20px 30px;
+	font-size: x-large;
+	font-weight: bold;
+	width: 140px;
+	height: auto;
+}
